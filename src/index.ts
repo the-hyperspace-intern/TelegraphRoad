@@ -3,8 +3,6 @@ import bencode from 'bencode';
 import url, { parse as urlParser } from 'url';
 import dgram, { createSocket, Socket } from 'dgram';
 import crypto from 'crypto';
-import { resolve } from 'dns';
-import { rejects } from 'assert';
 
 function genSubcription(): Buffer {
     const subPayload = Buffer.alloc(16);
