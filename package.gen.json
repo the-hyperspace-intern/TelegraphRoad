@@ -1,0 +1,12 @@
+{
+  "name": "telegraphroad",
+  "version": "1.0.0",
+  "description": "TelegraphRoad a simple torrent cient",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ginkoe",
+  "license": "ISC"
+}

@@ -1,0 +1,10 @@
+#+TITLE:     telegraphroad
+#+AUTHOR:    Ginkoe
+#+EMAIL:     ginkoe@protonmail.com
+#+DESCRIPTION: [telegraphroad] TelegraphRoad a simple torrent cient
+
+* telegraphroad
+TelegraphRoad a simple torrent cient
+
+** Todo
+- [ ] Todo 1

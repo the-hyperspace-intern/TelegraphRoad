@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/bin/node /home/ginkoe/.yarn/bin/yarn.js init
+
+PATH: 
+  /home/ginkoe/.yarn/bin:/home/ginkoe/.config/yarn/global/node_modules/.bin:/home/ginkoe/.gvm/bin:/home/ginkoe/.cargo/bin:/home/ginkoe/anaconda3/bin:/home/ginkoe/.cargo/bin:/home/ginkoe/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/home/ginkoe/.rvm/bin:/home/ginkoe/.rvm/bin:/home/ginkoe/go/:/home/ginkoe/go//bin:
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.1.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/home/ginkoe/.yarn/lib/cli.js:137008:13)
+      at Interface.emit (events.js:315:20)
+      at Interface._ttyWrite (readline.js:873:16)
+      at ReadStream.onkeypress (readline.js:213:10)
+      at ReadStream.emit (events.js:315:20)
+      at emitKeys (internal/readline/utils.js:335:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1140:36)
+      at ReadStream.emit (events.js:315:20)
+      at addChunk (_stream_readable.js:300:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
