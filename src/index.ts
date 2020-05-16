@@ -51,17 +51,20 @@ async function main() {
     const udpHandler = new UDPHandler(announcer_url);
 
     const subPayload = genSubcription();
-    console.log(JSON.stringify(decoded));
     const _r = await udpHandler.sendBuffer(subPayload).catch(_ => { throw "Timed Out" });
-    // Test if transaction payload is the same
-    // const payloadTransaction = subPayload.slice(8, 16);
-    // const response = {
-    //     action: _r.slice(0, 4),
-    //     transactionId: _r.slice(4, 8),
-    //     connectionId: _r.slice(8, 16)
-    // };
-    // console.log(response);
-    // console.log(payloadTransaction);
+
+    // Test if transaction handshake is successful
+    const payloadTransaction = subPayload.slice(12, 16);
+    const response = {
+        action: _r.slice(0, 4),
+        transactionId: _r.slice(4, 8),
+        connectionId: _r.slice(8, 16)
+    };
+    console.log(response.transactionId)
+    console.log(payloadTransaction)
+    console.log(Buffer.compare(payloadTransaction, response.transactionId) == 0 ? "Same Transaction" : "oupsie ! Transaction Failed")
+
+
 }
 
 main().catch(e => console.log("An Error has occured", e));
