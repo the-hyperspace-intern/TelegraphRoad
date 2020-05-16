@@ -4,7 +4,14 @@
 #+DESCRIPTION: [telegraphroad] TelegraphRoad a simple torrent cient
 
 * telegraphroad
-TelegraphRoad a simple torrent cient
+TelegraphRoad a simple torrent Client written from Scratch ~
 
 ** Todo
-- [ ] Todo 1
+- [-] Tracker
+  - [X] connecting
+  - [ ] announcing
+  - [ ] scrapping
+  - [ ] errors handling
+- [ ] Download Stream
+  - [ ] Still dunno
+
