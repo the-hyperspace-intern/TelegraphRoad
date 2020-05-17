@@ -1,12 +1,21 @@
-#+TITLE:     telegraphroad
-#+AUTHOR:    Ginkoe
-#+EMAIL:     ginkoe@protonmail.com
-#+DESCRIPTION: [telegraphroad] TelegraphRoad a simple torrent cient
+#+TITLE: telegraphroad
+#+AUTHOR: Ginkoe
+#+LANGUAGE:  en
 
-* telegraphroad
-TelegraphRoad a simple torrent Client written from Scratch ~
+* Introduction
+** Whats telegraphroad
+telegraphroad is ...
+** Why making it from Scratch ?
+Well, idk.
 
-** Todo
+* Getting Started
+Here is some doc I found about the subject
+
+* Installation
+
+* Usage
+
+* Todo
 - [-] Tracker
   - [X] connecting
   - [ ] announcing
